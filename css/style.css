@@ -16,7 +16,7 @@
     list-style-type: none;
 }
 
-body {
+body{
     font-family: yekan;
     background: #141313;
     color: rgb(235, 234, 234);
@@ -24,7 +24,7 @@ body {
 
 .container{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 80%;
 }
 
 /* header */
@@ -50,3 +50,56 @@ body {
 
 
 
+
+.katooni-section {
+    padding: 36px 0;
+}
+.section-title{
+    color: orange;
+    font-size: 40px;
+}
+.katooni-wrraper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.katooni-item-col{
+    padding: 16px;
+    width: 100%;
+}
+.katooni-card{
+    border: 1px solid #b9b9b9;
+    background: #534f4f;
+    border-radius: 15px;
+    color: #b9b9b9;
+}
+.card-header img{
+    width: 100%;
+    height: auto;
+    border-radius : 15px 10px ;
+}
+.card-body{
+    padding: 20px 10px;
+}
+
+/* footer */
+.footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(101, 161, 171);
+    color: black;
+    font-size: 30px;
+}
+
+/* responsive */
+@media screen and (min-width : 768px) {
+    .katooni-item-col{
+        width: 50%;
+    }
+}
+@media screen and (min-width : 992px) {
+    .katooni-item-col{
+        width: 25%;
+    }
+}
